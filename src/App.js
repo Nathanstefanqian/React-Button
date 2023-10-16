@@ -35,9 +35,6 @@ function App() {
           <Button type="secondary" size="small" status="clicked">Button</Button>
           <Button type="secondary" size="tiny" status="clicked">Button</Button>
         </div>
-        <div className='row'>
-          <Button type="secondary" size="tiny" status="clicked">Button</Button>
-        </div>
       </div>
 
 
