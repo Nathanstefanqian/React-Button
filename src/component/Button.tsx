@@ -90,7 +90,9 @@ const Button: React.FC<ButtonProps> = ({ type, size, status, icon, children }) =
       buttonStatus = buttonDisabled;
       break;
     default:
-      buttonStatus = buttonNormal;
+      buttonStatus = {
+        color: type === 'secondary' ? '#23262F' : '#FCFCFD'
+      };
   }
 
   const buttonStyles = {
